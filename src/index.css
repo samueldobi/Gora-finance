@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -29,8 +31,12 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /* @apply ; */
 }
 
+.main-body{
+  @apply bg-linear-to-b from-violet-600/10 via-transparent;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

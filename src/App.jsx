@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className='bg-neutral-900 max-w-5xl mx-auto px-4 xl:px-0 pt-24 lg:pt-32 pb-24'>
+    <div className='main-body'>
       
       {/* Hero Section */}
       <div className="">
