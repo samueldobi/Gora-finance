@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
+import Home from './components/Home'
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
     <Navbar/>
     <div className='main-body'>
-       <Hero/>
+      <Home/>
     </div>
     </>
   )

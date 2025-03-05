@@ -1,4 +1,4 @@
-import Getstarted from "./utilities/Getstarted"
+import Button from "./utilities/Button"
 const Hero = () => {
   return (
     <>
@@ -12,9 +12,9 @@ const Hero = () => {
                 Stake, contribute, crowdfund, and pay seamlessly with Gora Finance, the social finance app powered by Algorand’s native tokens.
             </p>
           </div>
-          <div className="button-div flex">
-            <Getstarted text = "Get Started"/>
-            <Getstarted text = "Learn More "/>
+          <div className="button-div flex justify-center">
+            <Button text = "Get Started"/>
+            <Button text = "Learn More "/>
           </div>
         </div>
 
