@@ -7,8 +7,8 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   return (
     <>
-    <header className="sticky top-0 mb-2 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm">
-      <nav className="mt-4 relative max-w-2xl w-full bg-white border border-gray-200 rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto">
+    <header className="sticky top-0 mb-3 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm">
+      <nav className="mt-0 relative max-w-2xl w-full bg-white border border-gray-200 rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto">
         <div className="px-4 md:px-0 flex justify-between items-center">
           <div className="flex items-center">
             {/* Logo */}
@@ -21,7 +21,7 @@ const Navbar = () => {
               <div className="relative inline-flex">
                 <button 
                   onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                  className="group relative flex justify-center items-center size-8 text-xs hover:bg-gray-100 focus:bg-gray-100"
+                  className="group relative flex justify-center items-center size-13 text-xs hover:bg-gray-100 focus:bg-gray-100"
                 >
                     <img src="/Icons/dropdown-icon.png" alt="Logo" className="w-10 " />
                   {/* <span className="size-4">▼</span> */}
