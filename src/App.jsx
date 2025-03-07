@@ -5,8 +5,8 @@ import './App.css'
 function App() {
   return (
     <>
-    <Navbar/>
     <div className='main-body'>
+    <Navbar/>
       <Home/>
     </div>
     </>

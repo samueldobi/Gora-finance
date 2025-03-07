@@ -1,5 +1,10 @@
 @import "tailwindcss";
 @tailwind utilities;
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 /* *{
   border: 1px solid red;
 } */
@@ -9,7 +14,7 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: #242424; */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,6 +22,8 @@
   --orange: #FFA725;
   --lightpink: #FFF5E4;
   --red:#E52020;
+  margin:0;
+  padding:0;
 }
 
 a {
@@ -33,14 +40,15 @@ body{
   padding:0;
   /* display: flex;
   place-items: center; */
-  min-width: 320px;
+  width: 100%;
   min-height: 100vh;
-  background:var(--orange);
+  /* background:var(--orange); */
   /* @apply ; */
 }
 
 .main-body{
-  @apply bg-linear-to-b from-violet-600/10 via-transparent;
+  /* @apply bg-linear-to-b from-violet-600/10 via-transparent; responsible for the border background on the texts */
+  background:var(--orange);
 }
 h1 {
   font-size: 3.2em;
